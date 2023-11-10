@@ -23,7 +23,7 @@ function setFontTheme(theme) {
   }
 }
 
-const initialTheme = localStorage.getItem("Serif");
+const initialTheme = localStorage.getItem("font-theme") || "Serif";
 setFontTheme(initialTheme);
 
 const fontThemeSelect = document.querySelector("[data-font-theme]");
