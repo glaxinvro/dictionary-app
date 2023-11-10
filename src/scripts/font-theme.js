@@ -19,11 +19,11 @@ function setFontTheme(theme) {
     if (!document.body.classList.contains("theme--sans-serif")) {
       document.body.classList.add("theme--sans-serif");
     }
-    localStorage.setItem("font-theme", "Serif");
+    localStorage.setItem("font-theme", theme);
   }
 }
 
-const initialTheme = localStorage.getItem("font-theme") || "Serif";
+const initialTheme = localStorage.getItem("Serif");
 setFontTheme(initialTheme);
 
 const fontThemeSelect = document.querySelector("[data-font-theme]");
