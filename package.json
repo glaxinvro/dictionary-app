@@ -1,0 +1,29 @@
+{
+  "name": "dictionary-app",
+  "version": "1.0.0",
+  "description": "A Full Stack Dictionary made via Vite and Javascript!",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 8080"
+  },
+  "keywords": [
+    "Dictionary",
+    "VITE",
+    "Javascript",
+    "Full",
+    "Stack",
+    "Dictionary",
+    "Umair",
+    "Kalwar"
+  ],
+  "author": "Umair Kalwar",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "glob": "^8.0.3",
+    "path": "^0.12.7",
+    "sass": "^1.57.1",
+    "vite": "^4.0.4"
+  }
+}
