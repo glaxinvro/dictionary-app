@@ -19,7 +19,7 @@ function setFontTheme(theme) {
     if (!document.body.classList.contains("theme--sans-serif")) {
       document.body.classList.add("theme--sans-serif");
     }
-    localStorage.setItem("font-theme", theme);
+    localStorage.setItem("font-theme", "Serif");
   }
 }
 
